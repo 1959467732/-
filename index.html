@@ -359,7 +359,7 @@
             }, 10);
 
             // 点击播放音乐
-
+music.play()
             canvas.onclick = function () {
                 // console.log(music);
                 if (music.paused) {
@@ -368,7 +368,7 @@
                     music.play()
                 } else {
                     // 暂停音乐
-                    music.pause()
+                    music.play()
                     // document.body.style.backgroundColor = '#ffd1cd'
                 }
             }
